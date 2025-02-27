@@ -6,8 +6,6 @@ class SimpleLottery():
     outcomes = list()
     lottery = pd.DataFrame()
 
-
-
     def __init__(self, name: str, outcomes: list, probabilities: list):
         
         self.name = name
